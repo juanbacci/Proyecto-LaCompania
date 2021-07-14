@@ -1,0 +1,42 @@
+$ancho: 720px;
+
+#presentacion {
+  width: 90%;
+  margin: auto;
+  display: flex;
+  min-height: 90vh;
+  align-items: center;
+}
+
+#fotoLaCompañia {
+  margin-top: 30px;
+  border-radius: 10px;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+.fraseInicio {
+  font-size: 2rem;
+  color: white;
+  margin-top: 40px;
+  align-items: center;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+.botonElegi {
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+#imagenpicada1 {
+  width: $ancho/2;
+}
+
+#imagenpicada2 {
+  width: $ancho/2;
+}
+
+#imagenpicada3 {
+  width: $ancho/2;
+}

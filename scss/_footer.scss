@@ -1,0 +1,16 @@
+footer {
+  color: white;
+  background-color: #0b2027;
+  margin-top: 5vh;
+  .pie {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .pie__logosInstagramFacebook {
+    display: flex;
+    gap: 1rem;
+  }
+}

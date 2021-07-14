@@ -1,0 +1,30 @@
+#logoLaCompañia {
+  color: white;
+  font-weight: 800;
+  font-size: 30px;
+  margin-left: auto;
+  margin-right: auto;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+#barraCompleta {
+  margin: auto;
+  font-size: 1.2rem;
+  font-weight: 500;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+@keyframes aparecer {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.nav-link-lacompañia {
+  color: white;
+}

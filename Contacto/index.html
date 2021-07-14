@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="keywords"
+      content="PICADAS, REGALOS, COMIDA, FIAMBRE, PICADAS A DOMICILIO, COMIDA A DOMICILIO"
+    />
+    <meta
+      name="Descripción"
+      content="Aquí podrás realizar distintas consultas y adherirte a nuestro newsletter."
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../css/styles.css" />
+    <title>Contacto</title>
+  </head>
+  <body>
+    <header class="encabezado">
+      <nav
+        class="navbar navbar-expand-lg navbar-dark"
+        style="background-color: #0b2027"
+      >
+        <div class="container-fluid">
+          <a class="navbar-brand" id="logoLaCompañia" href="../index.html"
+            >La Compañia</a
+          >
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="barraCompleta">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="../index.html"
+                  >Inicio</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../Productos/">Productos</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../SobreNosotros/">Sobre Nosotros</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="../PreguntasFrecuentes/"
+                  >Preguntas Frecuentes</a
+                >
+              </li>
+              <li class="nav-item">
+                <a class="nav-link active" href="../Contacto/">Contacto</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </header>
+    <div class="tituloConLogo">
+      <h1 class="tituloSeccion">Contacto</h1>
+    </div>
+    <section class="seccionContacto">
+      <form action="" method="POST">
+        <div class="inputGroup">
+          <label for="nombre">Nombre:</label>
+          <input
+            type="text"
+            id="nombre"
+            name="nombre"
+            placeholder="Escriba aquí su nombre"
+          />
+        </div>
+        <div class="inputGroup">
+          <label for="apellido">Apellido:</label>
+          <input
+            type="text"
+            id="apellido"
+            name="apellido"
+            placeholder="Escriba aquí su apellido"
+          />
+        </div>
+        <div class="inputGroup">
+          <label for="mail">Mail:</label>
+          <input
+            type="mail"
+            id="mail"
+            name="mail"
+            placeholder="Escriba aquí su dirección de correo electrónico"
+          />
+        </div>
+        <div class="inputGroup">
+          <label for="newsletter">¿Desea recibir el newsletter?</label>
+          <input type="radio" id="newsletter" name="newsletter" />
+        </div>
+        <div class="inputGroup">
+          Mensaje:
+          <textarea
+            name="mensaje"
+            id="mensaje"
+            cols="30"
+            rows="10"
+            placeholder="Escriba aquí su consulta"
+          ></textarea>
+        </div>
+        <div class="botonesEnviarLimpiar">
+          <div class="botonEnviar"><input type="submit" value="ENVIAR" /></div>
+          <div class="botonLimpiar"><input type="reset" value="LIMPIAR" /></div>
+        </div>
+      </form>
+    </section>
+
+    <footer>
+      <div class="pie">
+        <p class="pie__año">2021©</p>
+        <p class="pie__mediosDePago">
+          Medios de pago: efectivo, mercadopago o transferencia bancaria.
+        </p>
+        <div class="pie__logosInstagramFacebook">
+          <img
+            class="pie__instagram"
+            src="instagram.svg"
+            alt="Instagram"
+            width="30px"
+            height="30px"
+          />
+          <img
+            class="pie__facebook"
+            src="facebook1.svg"
+            alt="Instagram"
+            width="30px"
+            height="30px"
+          />
+        </div>
+      </div>
+    </footer>
+    <script src="../bootstrap/dist/js/bootstrap.js"></script>
+  </body>
+</html>

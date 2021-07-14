@@ -1,0 +1,36 @@
+.presentacion__parrafoSobreNosotros {
+  text-align: justify;
+}
+
+.sobreNosotros__cajaTexto {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.sobreNosotros__imgBox {
+  position: relative;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.sobreNosotros__texto {
+  font-size: 5rem;
+  animation-duration: 4s;
+  animation-name: aparecer;
+}
+
+.presentacion {
+  width: 90%;
+  margin: auto;
+  color: white;
+  margin-top: 2rem;
+}
