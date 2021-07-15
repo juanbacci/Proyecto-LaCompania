@@ -15,3 +15,14 @@
     animation-name: aparecer;
   }
 }
+
+@media (max-width: 450px) {
+  #logoLaCompañia {
+    color: white;
+    font-weight: 800;
+    font-size: 30px;
+    margin: auto;
+    animation-duration: 3s;
+    animation-name: aparecer;
+  }
+}
