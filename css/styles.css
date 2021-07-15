@@ -10788,7 +10788,7 @@ footer .pie__logosInstagramFacebook {
   color: white;
   font-weight: 800;
   font-size: 30px;
-  margin-left: 7.5rem;
+  margin-left: 6.9rem;
   margin-right: auto;
   animation-duration: 3s;
   animation-name: aparecer;
@@ -10971,31 +10971,6 @@ form {
   display: flex;
   margin: auto;
   margin-top: 1rem;
-}
-
-@media (max-width: 600px) {
-  .logo {
-    font-size: 12px;
-  }
-
-  .navLinks {
-    flex-direction: column;
-    align-items: flex-start;
-    margin-top: 130px;
-  }
-
-  .hamburguesa {
-    display: flex;
-  }
-
-  .navLinks {
-    display: none;
-  }
-
-  .navLinks .navLink {
-    width: 100%;
-    flex-direction: column;
-  }
 }
 
 /*# sourceMappingURL=styles.css.map */
