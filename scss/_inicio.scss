@@ -1,5 +1,3 @@
-$ancho: 720px;
-
 #presentacion {
   width: 90%;
   margin: auto;
@@ -27,16 +25,4 @@ $ancho: 720px;
 .botonElegi {
   animation-duration: 3s;
   animation-name: aparecer;
-}
-
-#imagenpicada1 {
-  width: $ancho/2;
-}
-
-#imagenpicada2 {
-  width: $ancho/2;
-}
-
-#imagenpicada3 {
-  width: $ancho/2;
 }

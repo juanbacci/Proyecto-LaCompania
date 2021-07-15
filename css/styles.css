@@ -10796,6 +10796,7 @@ footer .pie__logosInstagramFacebook {
 
 #barraCompleta {
   margin: auto;
+  margin-left: 23rem;
   font-size: 1.2rem;
   font-weight: 500;
   animation-duration: 3s;
@@ -10841,18 +10842,6 @@ footer .pie__logosInstagramFacebook {
 .botonElegi {
   animation-duration: 3s;
   animation-name: aparecer;
-}
-
-#imagenpicada1 {
-  width: 360px;
-}
-
-#imagenpicada2 {
-  width: 360px;
-}
-
-#imagenpicada3 {
-  width: 360px;
 }
 
 .todosLosProductos {
@@ -10977,6 +10966,15 @@ form {
   .sobreNosotros__texto {
     font-size: 2.5rem;
     animation-duration: 4s;
+    animation-name: aparecer;
+  }
+}
+@media (max-width: 1400px) {
+  #barraCompleta {
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    animation-duration: 3s;
     animation-name: aparecer;
   }
 }

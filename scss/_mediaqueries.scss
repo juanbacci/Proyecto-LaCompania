@@ -5,3 +5,13 @@
     animation-name: aparecer;
   }
 }
+
+@media (max-width: 1400px) {
+  #barraCompleta {
+    margin: auto;
+    font-size: 1.2rem;
+    font-weight: 500;
+    animation-duration: 3s;
+    animation-name: aparecer;
+  }
+}
