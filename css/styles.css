@@ -10973,4 +10973,12 @@ form {
   margin-top: 1rem;
 }
 
+@media (max-width: 810px) {
+  .sobreNosotros__texto {
+    font-size: 2.5rem;
+    animation-duration: 4s;
+    animation-name: aparecer;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
