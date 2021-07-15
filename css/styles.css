@@ -10988,5 +10988,14 @@ form {
     animation-name: aparecer;
   }
 }
+@media (max-width: 450px) {
+  form {
+    background: white;
+    padding: 20px;
+    width: 25rem;
+    border-radius: 10px;
+    box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  }
+}
 
 /*# sourceMappingURL=styles.css.map */
