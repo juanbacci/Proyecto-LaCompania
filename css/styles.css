@@ -10844,6 +10844,11 @@ footer .pie__logosInstagramFacebook {
   animation-name: aparecer;
 }
 
+.clickElegi {
+  text-decoration: none;
+  color: white;
+}
+
 .todosLosProductos {
   width: 100%;
   height: 100%;
