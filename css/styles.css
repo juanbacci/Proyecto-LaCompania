@@ -11092,6 +11092,10 @@ form {
     animation-duration: 3s;
     animation-name: aparecer;
   }
+
+  .pie {
+    text-align: center;
+  }
 }
 @media (max-width: 490px) {
   form {
