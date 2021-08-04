@@ -1,14 +1,13 @@
-.logoContacto {
-  font-weight: 400;
-  margin: 5px;
-}
-
 form {
-  background: white;
+  background: #f6f1d1;
+  font-weight: bold;
   padding: 20px;
   width: 30rem;
   border-radius: 10px;
   box-shadow: 0 0 6px 0 rgba(255, 255, 255, 0.8);
+  animation-duration: 3s;
+  animation-duration: 3s;
+  animation-name: aparecer;
 }
 
 .seccionContacto {
@@ -39,4 +38,35 @@ form {
   display: flex;
   margin: auto;
   margin-top: 1rem;
+}
+
+.cajaContacto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5rem;
+  flex-wrap: wrap;
+}
+
+#imagenContacto {
+  border-radius: 10px;
+  animation-duration: 3s;
+  animation-duration: 3s;
+  animation-name: aparecer;
+}
+
+.enviar {
+  background-color: #40798c;
+  padding: 3px;
+  border-radius: 4px;
+  font-weight: bold;
+  border-collapse: collapse;
+}
+
+.limpiar {
+  background-color: #40798c;
+  padding: 3px;
+  border-radius: 4px;
+  font-weight: bold;
+  border-collapse: collapse;
 }

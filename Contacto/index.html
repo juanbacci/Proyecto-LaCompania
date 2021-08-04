@@ -41,7 +41,10 @@
           >
             <span class="navbar-toggler-icon"></span>
           </button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <div
+            class="collapse navbar-collapse text-center"
+            id="navbarSupportedContent"
+          >
             <ul class="navbar-nav me-auto mb-2 mb-lg-0" id="barraCompleta">
               <li class="nav-item">
                 <a class="nav-link" aria-current="page" href="../index.html"
@@ -67,58 +70,74 @@
         </div>
       </nav>
     </header>
-    <div class="tituloConLogo">
-      <h1 class="tituloSeccion">Contacto</h1>
+    <div class="cajaTitulos"><h1 class="tituloSeccion">Contacto</h1></div>
+    <div class="cajaContacto">
+      <div>
+        <img
+          class="img-fluid"
+          id="imagenContacto"
+          src="/img/imagen-contacto.jpg"
+          alt="Imagen Contacto"
+          width="600px"
+          height="500px"
+        />
+      </div>
+      <div class="formularioContacto">
+        <section class="seccionContacto">
+          <form action="" method="POST">
+            <div class="inputGroup">
+              <label for="nombre">Nombre:</label>
+              <input
+                type="text"
+                id="nombre"
+                name="nombre"
+                placeholder="Escriba aquí su nombre"
+              />
+            </div>
+            <div class="inputGroup">
+              <label for="apellido">Apellido:</label>
+              <input
+                type="text"
+                id="apellido"
+                name="apellido"
+                placeholder="Escriba aquí su apellido"
+              />
+            </div>
+            <div class="inputGroup">
+              <label for="mail">Mail:</label>
+              <input
+                type="mail"
+                id="mail"
+                name="mail"
+                placeholder="Escriba aquí su dirección de correo electrónico"
+              />
+            </div>
+            <div class="inputGroup">
+              <label for="newsletter">¿Desea recibir el newsletter?</label>
+              <input type="radio" id="newsletter" name="newsletter" />
+            </div>
+            <div class="inputGroup">
+              Mensaje:
+              <textarea
+                name="mensaje"
+                id="mensaje"
+                cols="30"
+                rows="10"
+                placeholder="Escriba aquí su consulta"
+              ></textarea>
+            </div>
+            <div class="botonesEnviarLimpiar">
+              <div class="botonEnviar">
+                <input type="submit" value="ENVIAR" class="enviar" />
+              </div>
+              <div class="botonLimpiar">
+                <input type="reset" value="LIMPIAR" class="limpiar" />
+              </div>
+            </div>
+          </form>
+        </section>
+      </div>
     </div>
-    <section class="seccionContacto">
-      <form action="" method="POST">
-        <div class="inputGroup">
-          <label for="nombre">Nombre:</label>
-          <input
-            type="text"
-            id="nombre"
-            name="nombre"
-            placeholder="Escriba aquí su nombre"
-          />
-        </div>
-        <div class="inputGroup">
-          <label for="apellido">Apellido:</label>
-          <input
-            type="text"
-            id="apellido"
-            name="apellido"
-            placeholder="Escriba aquí su apellido"
-          />
-        </div>
-        <div class="inputGroup">
-          <label for="mail">Mail:</label>
-          <input
-            type="mail"
-            id="mail"
-            name="mail"
-            placeholder="Escriba aquí su dirección de correo electrónico"
-          />
-        </div>
-        <div class="inputGroup">
-          <label for="newsletter">¿Desea recibir el newsletter?</label>
-          <input type="radio" id="newsletter" name="newsletter" />
-        </div>
-        <div class="inputGroup">
-          Mensaje:
-          <textarea
-            name="mensaje"
-            id="mensaje"
-            cols="30"
-            rows="10"
-            placeholder="Escriba aquí su consulta"
-          ></textarea>
-        </div>
-        <div class="botonesEnviarLimpiar">
-          <div class="botonEnviar"><input type="submit" value="ENVIAR" /></div>
-          <div class="botonLimpiar"><input type="reset" value="LIMPIAR" /></div>
-        </div>
-      </form>
-    </section>
 
     <footer>
       <div class="pie">
